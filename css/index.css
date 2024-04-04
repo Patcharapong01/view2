@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #9195F6;
+    margin: 0;
+    padding: 0;
+    height: 120%;
+    /* font-size: 3vw; */
+}
+
+.logo{
+    text-align: center;
+    font-size: 3vw;
+}
+
+nav{
+    border: 5px solid #FB88B4;
+    margin: 0 auto;
+    background: #B7C9F2;
+}
+
+audio{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.carousels{
+    margin-top: 100px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.boxtext{
+    border: 5px solid;
+    background: #F9F07A;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.headertext{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.qqq{
+    border: 3px solid #FB88B4; 
+    background: #B7C9F2; 
+    width: 200px; 
+    text-align: center; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    height: 40px; 
+    margin-left: 30px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F9F07A;
+    /* padding: 20px; */
+    border: 3px solid #000000;
+    border-radius: 5px;
+    z-index: 1000;
+    height: 200px;
+    width: 600px;
+  }
+  
+  /* Style for the overlay */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  /* Style for the close button */
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  
+  /* Style for form container */
+  .form-container {
+    text-align: center;
+  }
+  
+  /* Style for login and register forms */
+  .form-container form {
+    display: inline-block;
+  }
+
+  input{
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
